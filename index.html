@@ -57,7 +57,7 @@
 			$(this).hover(function () {
 				var getClassName = $(this).attr('class').split(' ')[1];
 				$(".social-container").addClass(getClassName);
-				$("social-item").addClass(getClassName+"-color");
+				$(".social-item").css("color", "#ffffff");
 				$(".social-title").addClass("social-title--visible");
 				var getTitle = getClassName.substr(0, getClassName.indexOf('-'));
 				$(".social-title").text(getTitle);
@@ -65,6 +65,8 @@
 				var getClassName = $(this).attr('class').split(' ')[1];
 				$(".social-container").removeClass(getClassName);
 				$(".social-title").removeClass("social-title--visible");
+				$(".social-item").css("color", "#303F9F");
+
 			});
 		});
 	});

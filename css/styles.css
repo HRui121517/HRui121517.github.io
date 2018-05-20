@@ -28,8 +28,27 @@ html {
 	}
 }
 
-.icons-social i {
-	font-size: 3em;
+.social-container a {
+	color: #303F9F;
+	width: 60px;
+    height: 60px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 30px;
+    transition: all .3s ease-in-out;
+    border-radius: 4px;
+}
+
+.social-container a:hover{
+	color: #ffffff;
+}
+.social-container i {
+	font-size: 2.5em;
+	margin: 10% 0;
+}
+
+.social-container i:hover {
+	animation: bounce 1s;
 }
 
 /* Custom Styles */
@@ -43,35 +62,76 @@ main {
 	text-align: center;
 }
 
-main > .intro {
+main>.intro {
 	font-family: 'Reem Kufi', sans-serif;
 	font-size: 3.75em;
 	font-weight: 600;
 }
 
-main > .tagline {
+main>.tagline {
 	font-size: 1.5rem;
 	margin: 1.5rem 0;
 	font-weight: 100;
 }
 
-main > .subtagline{
+main>.subtagline {
 	font-size: 1.0rem;
 	margin: 1.5rem 0;
 	font-weight: 100;
 }
 
-.icons-social i {
-	padding: 10px;
+.social-container {
+	background-color: #E8EAF6;
+	text-align: center;
+	transition: all .3s ease-in-out;
+	padding-bottom: 50px;
+	position: relative;
+	top: 50%;
+	width: 100%;
 }
 
-.devto {
-	margin-bottom: -0.20rem;
+.social-title {
+	padding: 30px 0;
+	color: #ffffff;
+	visibility: hidden;
+	opacity: 0;
+	transition: all .3s ease-in-out;
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: 300;
+}
+.social-title--visible {
+    visibility: visible;
+    opacity: 1;
+  }
+/* social colors */
+.github-color:hover {
+	background-color: #333333;
 }
 
-.devto svg {
-	margin-bottom: -0.20rem;
-	margin-left: 0.675rem;;
-	width: 2.65rem;
-	height: 2.65rem;
+.linkedin-color:hover {
+	background-color: #0077B5;
+}
+
+.twitter-color:hover {
+	background-color: #55acee;
+}
+
+.codepen-color:hover {
+	background-color: #191919;
+}
+
+
+
+/* animation */
+
+@keyframes bounce {
+	0%,
+	100% {
+		transform: translateY(0);
+	}
+	30% {
+		transform: translateY(-10px);
+	}
 }

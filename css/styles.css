@@ -32,7 +32,10 @@ html {
 	color: #303F9F;
 	display: inline-block;
 	text-align: center;
-	margin: 15px;
+	margin: 5px 5px;
+	width: 60px;
+	height: 60px;
+	border-radius: 4px;
 }
 
 .social-container a:hover {
@@ -40,8 +43,8 @@ html {
 }
 
 .social-container i {
-	font-size: 2.5em;
-	margin: 10% 0;
+	font-size: 36px;
+	padding-top: 12px;
 }
 
 .social-container i:hover {
@@ -107,19 +110,19 @@ main>.subtagline {
 
 /* social colors */
 
-.github-color:hover {
+.github-color:hover, .github-color.hovered{
 	background-color: #333333;
 }
 
-.linkedin-color:hover {
+.linkedin-color:hover, .linkedin-color.hovered{
 	background-color: #0077B5;
 }
 
-.twitter-color:hover {
+.twitter-color:hover, .twitter-color.hovered {
 	background-color: #55acee;
 }
 
-.codepen-color:hover {
+.codepen-color:hover,.codepen-color.hovered{
 	background-color: #191919;
 }
 

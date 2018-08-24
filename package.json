@@ -2,7 +2,7 @@
   "name": "ruihuang.io",
   "version": "1.0.0",
   "description": "Rui Huang's personal portfolio page",
-  "main": "index.html",
+  "main": "dist/index.html",
   "homepage": "https://github.com/RuiHuangIO/RuiHuangIO.github.io",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css --recursive",

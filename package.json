@@ -5,8 +5,7 @@
   "main": "index.js",
   "homepage": "https://RuiHuangIO.github.io/RuiHuangIO.github.io",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css --recursive",
-    "deploy": "gh-pages -d dist"
+    "sass": "node-sass -w scss/ -o dist/css --recursive"
   },
   "repository": {
     "type": "git",
@@ -15,7 +14,6 @@
   "author": "Rui Huang",
   "license": "MIT",
   "dependencies": {
-    "gh-pages": "^1.2.0",
     "node-sass": "^4.9.3"
   }
 }

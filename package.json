@@ -1,0 +1,29 @@
+{
+  "name": "ruihuang.io",
+  "version": "1.0.0",
+  "description": "Rui Huang's personal portfolio page",
+  "main": "index.html",
+  "homepage": "https://github.com/RuiHuangIO/RuiHuangIO.github.io",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RuiHuangIO/RuiHuangIO.github.io.git"
+  },
+  "keywords": [
+    "HTML",
+    "SCSS",
+    "JavaScript"
+  ],
+  "author": "Rui Huang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RuiHuangIO/RuiHuangIO.github.io/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^1.2.0",
+    "node-sass": "^4.9.3"
+  }
+}

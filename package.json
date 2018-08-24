@@ -4,7 +4,7 @@
   "description": "Rui Huang's personal portfolio website",
   "main": "index.html",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css --recursive"
+    "sass": "node-sass -w scss/ -o css --recursive"
   },
   "repository": {
     "type": "git",

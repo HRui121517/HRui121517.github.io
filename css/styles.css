@@ -1,148 +1,145 @@
 /* Typography */
 
 html {
-	font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 @media (min-width: 576px) {
-	html {
-		font-size: 14px;
-	}
+  html {
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 768px) {
-	html {
-		font-size: 16px;
-	}
+  html {
+    font-size: 16px;
+  }
 }
 
 @media (min-width: 992px) {
-	html {
-		font-size: 18px;
-	}
+  html {
+    font-size: 18px;
+  }
 }
 
 @media (min-width: 1200px) {
-	html {
-		font-size: 20px;
-	}
+  html {
+    font-size: 20px;
+  }
 }
 
 .social-container a {
-	color: #303F9F;
-	display: inline-block;
-	text-align: center;
-	margin: 5px 5px;
-	width: 60px;
-	height: 60px;
-	border-radius: 4px;
+  color: #303f9f;
+  display: inline-block;
+  text-align: center;
+  margin: 5px 5px;
+  width: 60px;
+  height: 60px;
+  border-radius: 4px;
 }
 
 .social-container a:hover {
-	color: #ffffff;
+  color: #ffffff;
 }
 
 .social-container i {
-	font-size: 36px;
-	padding-top: 12px;
+  font-size: 36px;
+  padding-top: 12px;
 }
 
 .social-container i:hover {
-	animation: bounce 1s;
+  animation: bounce 1s;
 }
 
 /* Custom Styles */
 
 main {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-	justify-content: center;
-	text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  text-align: center;
 }
 
-main>.intro {
-	font-family: 'Reem Kufi', sans-serif;
-	font-size: 3.75em;
-	font-weight: 600;
+main > .intro {
+  font-family: "Reem Kufi", sans-serif;
+  font-size: 3.75em;
+  font-weight: 600;
 }
 
-main>.tagline {
-	font-size: 1.5rem;
-	margin: 1.5rem 0;
-	font-weight: 100;
+main > .tagline {
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+  font-weight: 100;
 }
 
-main>.subtagline {
-	font-size: 1.0rem;
-	margin: 1.5rem 0;
-	font-weight: 100;
+main > .subtagline {
+  font-size: 1rem;
+  margin: 1.5rem 0;
+  font-weight: 100;
 }
 
 .social-container {
-	background: linear-gradient(270deg, #e8eaf6, #8c96d2);
-	background-size: 400% 400%;
-
-	-webkit-animation: gradient 26s ease infinite;
-	-moz-animation: gradient 26s ease infinite;
-	animation: gradient 26s ease infinite;
-
-	text-align: center;
-	transition: all .3s ease-in-out;
-	padding-bottom: 50px;
-	position: relative;
-	top: 50%;
-	width: 100%;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  padding-bottom: 50px;
+  position: relative;
+  top: 50%;
+  width: 100%;
 }
 
 .social-title {
-	padding-top: 30px;
-	padding-bottom: 10px;
-	color: #ffffff;
-	visibility: hidden;
-	opacity: 0;
-	transition: all .3s ease-in-out;
-	font-size: 24px;
-	text-transform: uppercase;
-	letter-spacing: 5px;
-	font-weight: 300;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  color: #ffffff;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 300;
 }
 
 .social-title--visible {
-	visibility: visible;
-	opacity: 1;
+  visibility: visible;
+  opacity: 1;
 }
 
 /* social colors */
 
-.github-color:hover, .github-color.hovered{
-	background-color: #333333 !important;
-	background: none;
+.github-color:hover,
+.github-color.hovered {
+  background-color: #333333 !important;
+  background: none;
 }
 
-.linkedin-color:hover, .linkedin-color.hovered{
-	background-color: #0077B5 !important;
-	background: none;
+.linkedin-color:hover,
+.linkedin-color.hovered {
+  background-color: #0077b5 !important;
+  background: none;
 }
 
-.twitter-color:hover, .twitter-color.hovered {
-	background-color: #55acee !important;
-	background: none;
+.twitter-color:hover,
+.twitter-color.hovered {
+  background-color: #55acee !important;
+  background: none;
 }
 
-.codepen-color:hover,.codepen-color.hovered{
-	background-color: #191919 !important;
-	background: none;
+.codepen-color:hover,
+.codepen-color.hovered {
+  background-color: #191919 !important;
+  background: none;
 }
 
 /* animation */
 
 @keyframes bounce {
-	0%,
-	100% {
-		transform: translateY(0);
-	}
-	30% {
-		transform: translateY(-10px);
-	}
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-10px);
+  }
 }

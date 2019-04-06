@@ -1,5 +1,7 @@
-/* Typography */
+@import "reset";
+@import "themes/white-indigo.scss";
 
+/* Typography */
 html {
   font-family: "Roboto", sans-serif;
 }
@@ -108,26 +110,26 @@ main > .subtagline {
 
 /* social colors */
 
-.github-color:hover,
-.github-color.hovered {
+.github:hover,
+.github.hovered {
   background-color: #333333 !important;
   background: none;
 }
 
-.linkedin-color:hover,
-.linkedin-color.hovered {
+.linkedin:hover,
+.linkedin.hovered {
   background-color: #0077b5 !important;
   background: none;
 }
 
-.twitter-color:hover,
-.twitter-color.hovered {
+.twitter:hover,
+.twitter.hovered {
   background-color: #55acee !important;
   background: none;
 }
 
-.codepen-color:hover,
-.codepen-color.hovered {
+.codepen:hover,
+.codepen.hovered {
   background-color: #191919 !important;
   background: none;
 }
